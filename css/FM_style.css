@@ -1,0 +1,238 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url("../images/FM_image/FMBG.PNG");
+    background-size: 100% 100%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    float: left;
+    margin: 30px;
+}
+.play{
+    width: 560px;
+    height: 280px;
+    border: 1px solid rgba(255,255,255,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left:-280px;
+    background: rgba(0,0,0,0.2);
+}
+h3{
+    color: white;
+    font-size: 24px;
+    margin-top: 32px;
+    float: left;
+    margin-left: 30px;
+    width: 100%;
+}
+.author a{
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ccd5d8;
+    margin-top: 20px;
+    width: 100%;
+}
+.intro{
+    float: left;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "微软雅黑";
+    margin-left: 30px;
+    color: white;
+    width: 100%;
+    margin-bottom: 15px;
+}
+ .fm{
+    height: 80px;
+    width: 500px;
+    margin-right: auto;
+    margin-left:auto;
+    clear: both;
+} 
+.fm span{
+    display: inline-block;
+    background: url('../images/FM_image/preplay.png') no-repeat;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-top: 16px;
+}
+.fm .pre{
+    width: 34px;
+    height: 34px;
+    background-position: -90px -6px;
+}
+.fm .stop{
+    width: 45px;
+    height: 45px;
+    background-position: -45px 0;
+}
+.fm .next{
+    width: 34px;
+    height: 34px;
+    background-position: -124px -6px;
+}
+.fm p{
+    position:relative;
+}
+.fm .line{
+    width:60%;
+   height: 2px;
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    right: -5px;
+    top: -38px;
+
+}
+.fm .circle{
+    display: block;
+    position: absolute;
+    top: -43px;
+    left:185px;
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    box-shadow: 0 0 5px #fff;
+    border-radius: 10px;
+}
+.fm .time{
+    background:0;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    right: -3px;
+    top: -64px;
+    font-weight: 700;
+}
+.fm_content .player a {
+    display: inline-block;
+    background-image: url(../images/fm/playbtn.png);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-top: 16px;
+}
+.play_footer{
+    float: right;
+    width: 255px;
+    height: 22px;
+    right: 22px;
+    font-size: 14px;
+    font-weight:600;
+    color: white;
+    margin-right:40px;
+}
+/*.play_footer:first-child{*/
+    /*background: url('../images/FM_image/comment.png');*/
+    /*background-size: 22px 22px;*/
+    /*float: left;*/
+    /*height: 22px;*/
+    /*width: 22px;*/
+/*}*/
+.play_footer>span{
+    margin-right: 5px;
+}
+.play_footer>a{
+    line-height: 22px;
+    float: left;
+    color: white;
+}
+.play_footer>span:nth-of-type(1){
+    background: url('../images/FM_image/comment.png');
+    background-size: 100%;
+    float: left;
+    height: 25px;
+    width: 25px;
+   /*  margin-top: 3px; */
+}
+.play_footer>span:nth-of-type(2){
+    background: url('../images/FM_image/like%20(1).png');
+    background-size:100%;
+    /*float: auto;*/
+    float: left;
+    height: 22px;
+    width: 22px;
+    margin-left: 16px;
+  /*   margin-top: 3px; */
+}
+.play_footer>span:nth-of-type(3){
+    background: url('../images/FM_image/share.png');
+    background-size: 100%;
+    float: left;
+    height: 21px;
+    width: 21px;
+    margin-left: 16px;
+}
+.bav{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    background: #222629;
+    right: 0px;
+    text-align: center;
+}
+.login{
+    height: 81px;
+    width: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+.login img{
+    width: 57px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.login img:hover{
+    opacity: 0.6;
+}
+.login p{
+    color: white;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.login>a>p:hover{
+    color: #999999;
+}
+.bav>ul{
+    width: 100px;
+    float: left;
+    margin-top: 81px;
+}
+.bav ul li{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 14px;
+}
+.bav>ul li:hover{
+    color: #999999;
+}
+.down{
+    text-align: center;
+    height: 90px;
+    width: 99px;
+    position: absolute;
+    bottom: 0px;
+    background: #1b1e21;
+}
+.down img{
+    width: 35px;
+    height: 35px;
+}
+.down p{
+    color: #b8b9b9;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.down p:hover{
+    color: #999999;
+}
+h1:hover{
+    background: rgba(0,0,0,0.3);
+}

@@ -1,0 +1,561 @@
+/*
+* @Author: hp
+* @Date:   2018-07-30 18:24:07
+* @Last Modified by:   hp
+* @Last Modified time: 2018-08-11 17:06:48
+*/
+.all_two{
+    display:none;
+}
+header{
+	width:540px;
+	height:460px;
+	background-color:white;
+	/* margin-bottom: 27px; */
+	margin:0px auto;
+}
+.high{
+	height:63px;
+	width: 540px;
+	background: white;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -270px;
+	z-index: 20;
+	
+}
+.high li{
+	width:270px;
+	height:63px;
+	font-size: 15px;
+	color:#333;
+	text-align: center;
+	line-height: 63px;
+	float:left;
+	box-sizing: border-box;
+}
+.high p{
+	width:75px;
+	margin:auto auto;
+	
+} 
+.underline{
+	border-bottom:4px solid #0b8bff;
+	color:#0b8bff;
+    box-sizing: border-box;
+}
+section{
+	width: 540px;
+	margin: 0px auto;
+	margin-bottom: 110px;
+} 
+section span{
+	color:#999;
+}
+.le{
+	position:relative;
+}
+.le::after{
+	content:'';
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background:#ccc;
+	bottom: 20px;
+	left: 100%;
+	margin-left: -6px;
+
+}
+.wrap{
+    width: 540px;
+    height: 210px;
+    margin-top:67px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: relative;
+    overflow: hidden;
+}
+.box,.boxs{
+    width: 9999px;
+    position: absolute;        		 
+}
+.box li,.boxs li{
+	float: left;
+}
+.lo,.los{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -40px;
+}
+.lo li,.los li{
+	width: 8px;
+	height: 8px;
+	margin-right:10px;
+	float: left;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+.lo .current,.los .current{
+	background: #077aff;
+	opacity:1;
+}
+.color_pic{
+	height:230px;
+/* 	box-sizing: border-box; 
+	 */	
+
+}
+.color_pic li{
+	float:left;
+	margin:20px 42px;
+}
+.gray{
+	width:540px;
+	height:25px;
+	background-color:rgb(248,248,248);
+	/* margin: */
+}
+.big{
+	height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+	margin-top: 29px;
+	position:relative;
+	padding-left: 20px;
+}
+.big::before{
+	content: "";
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background: #0b8bff;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+.little{
+	margin-left: 5px;
+	font-size: 14px;
+	color:black;
+}
+.top li:nth-of-type(1){
+	margin-top:30px;
+	border-top: 1px solid #eaeaea;
+}
+.down li:nth-of-type(1){
+	margin-top:30px;
+	border-top: 1px solid #eaeaea;
+}
+main li{
+	
+	height: 255px;
+	
+	border-bottom: 1px solid #eaeaea;
+}
+.one{
+	width: 250px;
+	height: 100px;
+    font-size: 18px;
+	line-height: 26px;
+	padding-top: 26px;
+	padding-left: 10px;
+	font-weight: bold;
+	border-bottom:1px solid #eaeaea;
+	float:left;
+	box-sizing:border-box;
+}
+.two{
+	font-size: 12px;
+	padding-left: 10px;
+	float:left;
+	margin-top:3px ;
+	margin-right: 34px;
+}
+.changeline{
+    margin-top:3px;
+    font-size: 12px; 
+    float:left;
+    margin-left: 10px;
+}
+.shichengsun .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/shi.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.shichengsun .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/laoshi.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .shichengsun .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/logo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .shichengsun .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/lm8.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+
+
+.linzi .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/linzilogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.linzi .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/linzi.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .linzi .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/logo5.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+    background-color:#ccc;
+}
+.all_two .linzi .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/lm7.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.wangyanan .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/wangyananlogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.wangyanan .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/wangynan.png') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .wangyanan .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/logo3.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .wangyanan .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/lm10.png') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.liyinhe .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/liyinhelogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.liyinhe .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/liyinhe.png') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .liyinhe .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/logo3.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .liyinhe .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/lm9.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.first .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/logo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.first .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/first.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .first .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/liming.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .first .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/limingbig.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.second .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/wanghaoweilogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.second .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/wanghaowei.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .second .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/zhang.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .second .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/zhngbig.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.third .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/zhouguopinglogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.third .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/zhouguoping.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .third .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/chenjiejun.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .third .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/chenjiebig.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.four .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/wuzhihonglogo.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.four .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/wuzhihong.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.all_two .four .name{
+	display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../images/class_images/limei.png') no-repeat center center;
+    background-size:50px;
+    float:left;
+}
+.all_two .four .right{
+	float:right;
+	width:230px ;
+	height: 130px;
+	background:url('../images/class_images/limeibig.jpg') no-repeat center center;
+	background-size:230px 130px;
+	margin-top:28px;
+}
+.leftdown{
+	width:250px;
+	float:left;
+	margin-top:15px;
+}
+.num{
+	float:left;
+	width:540px;
+	margin-top:18px;
+}
+.number1{
+	font-size:13px;
+	color:#ff5b5b;
+	float:left;
+}
+.number2{
+	font-size:12px;
+	float:right;
+}
+.more{
+	color:#0b8bff;
+	display:block;
+	margin-top:30px;
+	text-align:center;
+	font-size:14px;
+	text-decoration: none;
+    position:relative;
+}
+.more span{
+	display:block;
+	width:11px;
+	height:11px;
+	background:url('../images/class_images/right (7).png') no-repeat center center;
+    background-size:11px 11px;
+    position:absolute;
+    left:300px;
+    top:4px;
+}
+nav{
+	position: fixed;
+	left: 50%;
+	margin-left: -270px;
+	bottom: 0px;
+	width:540px;
+	height:60px;
+	border-top:1px solid #eaeaea;
+	background: white;
+}
+nav a{
+	color:#666;
+	/* color:#0b8bff ; */
+	width:270px;
+	height:60px;
+	font-size:16px;
+	text-align:center;
+	line-height:60px;
+	float:left;
+	position:relative;
+	cursor: pointer;
+}
+.left{
+	color:#0b8bff ;
+} 
+.left span{
+	position:absolute;
+	left:90px;
+	top:20px;
+	display:block;
+    width:18px;
+    height:19px;
+    background:url('../images/class_images/house.png') no-repeat; 
+    background-size:18px 19px;
+
+}
+.left::after{
+	content: "";
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 1px;
+    height: 18px;
+    background: #ccc;
+}
+.right span{
+	position:absolute;
+	left:90px;
+	top:20px;
+	display:block;
+    width:17px;
+    height:17px;
+    background:url('../images/class_images/wode-xuanzhong.png') no-repeat; 
+    background-size:17px;
+
+}
+/* .left span:hover{
+	background:url('../images/class_images/house.png') no-repeat; 
+	background-size:18px 19px;
+} 
+.right span:hover{
+    background:url('../images/class_images/wode-xuanzhong (1).png') no-repeat; 
+    background-size:17px;
+
+} */
+

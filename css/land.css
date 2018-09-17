@@ -1,0 +1,284 @@
+/*
+* @Author: hp
+* @Date:   2018-07-28 14:21:31
+* @Last Modified by:   hp
+* @Last Modified time: 2018-08-24 11:05:45
+*/
+html{
+    background:#f7f7f7;
+	
+
+}
+h1{
+	height:76px;
+	padding-top:55px;
+	margin-bottom:45px; 
+	text-align: center; 
+}
+main{
+	
+	height:560px;
+	background: url('../images/land_images/login_bg.png') no-repeat 50% 90%;
+}
+.warp{
+	width:300px;
+	margin:0px auto;
+	background:white;
+	box-shadow: 0 0 10px rgba(49,105,176,.2);
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.one{
+	padding-bottom: 13px;
+}
+.two{
+	display: none;
+	padding-bottom: 13px;
+}
+.top{
+   height:65px;
+   width: 300px;
+   border-bottom: 1px solid #DDD;
+   overflow:hidden;
+   text-align:center;
+   line-height: 65px;
+   font-size:16px;
+   color:#A8B4BB;
+}
+.top li{
+	width:150px;
+	 height:65px;
+	float:left;
+ 	cursor: pointer;
+}
+.top .current{
+	border-bottom:4px solid #3169B0;
+	color:#3169B0;
+    box-sizing: border-box;
+}
+.forget{
+    text-align:center;
+    font-size:12px;
+    color:#5a6266;
+    cursor: pointer;
+    margin-left:6px;
+}
+form{
+	width:300px;
+}
+input[name="big"]{
+	height:39px;
+	width:250px;
+	outline:none;
+	border:1px solid #BBC7C1;
+	font-size:12px;
+	color:#3169B0;
+	display: block;
+	text-indent:1em;
+	margin-top:29px;
+    margin-bottom:19px;
+	margin-left: 26px;
+	margin-right:26px;
+	border-radius: 5px;
+}
+input[name="small"]{
+	height:39px;
+	width:142px;
+	outline:none;
+	border:1px solid #BBC7C1;
+	font-size:12px;
+	color:#3169B0;
+	text-indent:1em;
+	margin-left: 26px;
+	border-radius: 5px;
+}
+input[name="password"]{
+	height:39px;
+	width:179px;
+    outline:none; 
+	border:1px solid #BBC7C1;
+	font-size:12px;
+	color:#3169B0;
+	text-indent:1em;
+	margin-left: 26px;
+	border-radius: 5px;
+}
+input[name="high"]{
+	height:39px;
+	width:100px;
+	outline:none;
+	border:1px solid #76BCF5;
+	font-size:14px;
+	color:#3984e6;
+	margin-left: 5px;
+	border-radius: 5px;
+	background-color: #F2F5F7;
+	cursor: pointer;
+}
+input[type="checkbox"]{
+	outline:none;
+	font-size:12px;
+	margin-left: 10px;
+	margin-left:26px;
+	margin-top:21px;
+}
+a{
+	text-decoration: none;
+}
+.onea{
+	color: #2B343A;
+	cursor: pointer;
+	font-size:12px;
+} 
+.onea:hover,.twoa:hover{
+	text-decoration: underline;
+}
+.down{
+    display: block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background: #3169B0;
+    font-size: 16px;
+    color: #fff;
+    margin: 25px auto 15px;
+    border-radius: 3px;
+    text-align: center;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.down:hover{
+  box-shadow: 0 0 10px #3169B0;
+}
+
+.twoa{
+	display:block;
+	color: #0b8bff;
+	cursor: pointer;
+	font-size:12px;
+	margin-left:26px;
+} 
+.line{
+    display: inline-block;
+	width: 200px;
+	border-bottom:1px dashed #eee;
+	margin-top: 16px;
+	margin-left:50px;
+	margin-bottom: 18px;
+}
+.bottom{
+	width: 226px;
+	height:90px;
+	
+	position: relative;
+	margin-left:auto;
+    margin-right:auto;
+ 
+}
+.two .bottom{
+	padding-top:10px;
+}
+.bottom p{
+	text-align:center;
+    font-size:12px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#5a6266;
+    cursor: pointer;
+}
+.bottom span{
+	display: inline-block;
+	cursor: pointer;
+}
+.left{
+	background: url('../images/land_images/icon-sprite.png') no-repeat -55px -5px;
+    width: 28px;
+    height: 24px;
+    margin-top: 22px;
+}
+.left:hover{
+   background-position: -83px -5px;
+}
+.mid{
+	
+	background: url('../images/land_images/icon-sprite.png') no-repeat -0px -5px;
+    width: 28px;
+    height: 24px;
+    margin-top: 22px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.mid:hover{
+   background-position: -28px -5px;
+}
+.right{
+	
+	background: url('../images/land_images/icon-sprite.png') no-repeat -112px -5px;
+    width: 24px;
+    height: 24px;
+}
+.right:hover{
+   background-position: -140px -5px;
+}
+.lefts,.mids,.rights{
+	font-size: 12px;
+	color: #5a6266;
+}
+.mids{
+
+    margin-left: 70px;
+    margin-right: 77px;
+
+}
+ footer{
+	margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    margin-top:20px;
+}
+.coin{
+  width:200px;
+  height: 200px;
+  background-color: white;
+  display:none;
+  position:absolute;
+  left:50%;
+  margin-left:-100px;
+  text-align:center;
+  line-height:190px;
+   box-sizing:border-box; 
+  bottom:50px;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  /* z-index: 20; */
+} 
+.coin img{
+	margin-top:15px;
+}
+.bot{
+  width:200px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #3169B0;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  position:relative;
+  padding-left: 26px;
+  box-sizing:border-box;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(49,105,176,.2); 
+  border-radius: 5px;
+  cursor:pointer;
+}
+.bot span{
+   display:block;
+   width:15px;
+   height:15px;
+   background:url('../images/land_images/icon-sprite.png') no-repeat -168px 0px;
+   position:absolute;
+   left:30px;
+   top:19px;
+}
